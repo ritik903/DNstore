@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slideIn {
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-popup {
+    animation: popup 0.6s ease-in-out;
+}
+
+.blur-md {
+    filter: blur(8px);
+    transition: filter 0.5s ease-in-out;
+}
+
+.blur-0 {
+    filter: blur(0);
+}
+
+@media (max-width: 768px) {
+    .popup-content {
+        width: 95%;
+        padding: 1.5rem;
+    }
+    .popup-title {
+        font-size: 1.5rem;
+    }
+    .popup-timer div {
+        font-size: 1rem;
+    }
+    .popup-btn {
+        font-size: 0.875rem;
+        padding: 0.75rem 1.5rem;
+    }
+}

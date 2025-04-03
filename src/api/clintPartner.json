@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "heading" : "The DNcart Story",
+        "para" : "At DNcart, we’re more than just an e-commerce platform – we’re a community-driven marketplace dedicated to delivering quality, convenience, and value to our customers. Our mission is to simplify your shopping experience by offering a diverse range of products, unbeatable prices, and exceptional service – all in one place."
+    },
+    {
+        "id": 2,
+        "heading": "Our history",
+        "para": "At DNcart, we’ve come a long way from our humble beginnings to becoming a trusted e-commerce platform, delivering quality products and exceptional service to customers across regions."
+        
+    },
+    {
+        "id": 3,
+        "heading": "Our mission",
+        "para": "At DNcart, our mission is simple yet powerful:To redefine online shopping by offering a seamless, secure, and customer-centric experience with quality products, unbeatable prices, and exceptional service."   
+    },
+    {
+        "id": 4,
+        "heading": "What Drives Us",
+        "para": "Customer Satisfaction First: We are dedicated to providing a smooth and enjoyable shopping journey, ensuring you get top-notch products and reliable service every time."
+    }
+]
